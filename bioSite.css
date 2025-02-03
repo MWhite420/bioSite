@@ -1,0 +1,107 @@
+<!--bioSite Styl
+Mark White
+CSD340
+Assignment6.3-->
+
+container {
+ 	background-color: pink;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 20px;
+}
+ 
+.gallery-grid {
+	text-align: center;
+	background-color: lavender;
+	font-family: Times New Roman;
+	border-style: inset;
+	border-color: black;
+	border-radius: 15px;
+	padding: 30px;
+}
+.hero-content  {
+	background-color: lavender;
+	font-family: Times New Roman;
+	border-style: inset;
+	border-color: black;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: lavender;
+    padding: 20px;
+    
+}
+
+h1, h2, {
+    margin: 10px 0;
+    font-family: Times New Roman;
+    
+}
+
+h3 {
+	margin:10px 0;
+	font-family:Times New Roman;
+	
+}
+
+#navbar {
+    background-color: lavender;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #333;
+    color: gold;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: lavender;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-div {
+	background-color: #333;
+    color: lavender;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
