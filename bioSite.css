@@ -11,21 +11,30 @@ container {
 }
  
 .gallery-grid {
-	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	margin-top:20px;
+}
+.gallery-grid p {
+	
+}
+
+.gallery-image {
+	height: 250px;
+	width: 250px;
+	display: block;
+	
+}
+
+.hero-description, .about, .gallery-grid {
 	background-color: lavender;
 	font-family: Times New Roman;
 	border-style: inset;
 	border-color: black;
 	border-radius: 15px;
 	padding: 30px;
-}
-.hero-content  {
-	background-color: lavender;
-	font-family: Times New Roman;
-	border-style: inset;
-	border-color: black;
-	border-radius: 15px;
-	padding: 5px;
+
 }
 
 body {
