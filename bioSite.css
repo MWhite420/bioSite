@@ -18,7 +18,8 @@ container {
 }
 img {
 	height: 250px;
-	width: 250px;	
+	width: 250px;
+	border: solid black;	
 }
 
 .gallery-image {
