@@ -4,7 +4,6 @@ Mark White
 CSD340-->
 
 container {
- 	background-color: pink;
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 20px;
@@ -69,6 +68,7 @@ h3 {
 #navbar {
     background-color: lavender;
     overflow: hidden;
+    width: 100%;
 }
 
 #navbar a {
@@ -86,7 +86,8 @@ h3 {
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
+    
 }
 
 ul {
@@ -102,17 +103,10 @@ footer {
     background-color: #333;
     color: lavender;
     text-align: center;
-    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-.footer-div {
-	background-color: #333;
-    color: lavender;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+ footer a:hover {
+	color: gold;
 }
