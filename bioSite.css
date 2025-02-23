@@ -68,7 +68,6 @@ h3 {
 #navbar {
     background-color: lavender;
     overflow: hidden;
-    width: 100%;
 }
 
 #navbar a {
@@ -99,14 +98,24 @@ ul li {
     margin: 5px 0;
 }
 
-footer {
+.footer-div {
     background-color: #333;
     color: lavender;
-    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align:center;
 }
+
  footer a:hover {
-	color: gold;
+    color: gold;
 }
+
+.footer-div a {
+	display: flex;
+    	justify-content: flex-end; /* Pushes the link to the right */
+    	padding: 10px;
+    	text-align: right;
+}
+
+
